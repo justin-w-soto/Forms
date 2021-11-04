@@ -3,4 +3,5 @@ import NewsSearchContainer from '../../containers/NewsSearchContainer';
 
 export default function App() {
   return <NewsSearchContainer />;
-}
+};
+
