@@ -3,6 +3,7 @@ import ArticleList from '../components/ArticleList';
 import { fetchArticles } from '../services/NewsApi';
 
 
+
 class NewsSearchContainer extends Component {
     state = {
         loading: true,
