@@ -18,8 +18,3 @@ export default function Search({ onSubmit, query, onChange }) {
     )
 }
 
-Search.PropTypes = {
-    onSubmit: PropTypes.string.isRequired,
-    query:  PropTypes.string.isRequired,
-    onChange: PropTypes.func.isRequired
-}

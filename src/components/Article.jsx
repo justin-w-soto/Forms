@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 
 export default function Article({ name, author, title, description, image }) {
+    
     return (
         <figure>
             
@@ -19,10 +20,10 @@ export default function Article({ name, author, title, description, image }) {
     )
 }
 
-Article.propTypes = {
-    name: PropTypes.string.isRequired,
-    author: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
-  };
+// Article.propTypes = {
+//     name: PropTypes.string.isRequired,
+//     author: PropTypes.string.isRequired,
+//     title: PropTypes.string.isRequired,
+//     description: PropTypes.string.isRequired,
+//     image: PropTypes.string.isRequired,
+//   };
