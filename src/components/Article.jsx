@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function Article({ name, author, title, description }) {
+export default function Article({ name, author, title, description, image }) {
     return (
         <figure>
             
-            <img src={urlToImage} alt={title} />
+            <img src={image} alt={title} />
             <figcaption>
 
                 {name}
