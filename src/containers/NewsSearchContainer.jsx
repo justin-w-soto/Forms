@@ -44,12 +44,13 @@ class NewsSearchContainer extends Component {
                   onChange={this.handleInputChange} 
                   onSubmit={this.handleSubmit}
                 />
-                <ArticleList articles={articles} /> 
+                <ArticleList articles={articles} style={{border: '2px, solid, #B59DA4 '}}/> 
             </> }
           </>
         );
-      }
     }
+}
+console.log(ArticleList);
     
  
 export default NewsSearchContainer;

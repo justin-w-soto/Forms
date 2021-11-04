@@ -15,7 +15,7 @@ export default function Search({ onSubmit, query, onChange }) {
                 onChange={onChange} 
                 style={{marginInline:'.5em', color: '#551B14', fontSize: '1em', fontWeight: '900', fontFamily: 'monospace'}}
             />
-                  <button aria-label="search-articles"  style={{backgroundColor: '#6D3D14', color: 'whitesmoke', fontSize:'1em', fontWeight: '500', borderRadius: '.35em', fontFamily: 'monospace' }}> Search </button>
+                  <button aria-label="search-articles"  style={{backgroundColor: '#84291F', color: 'whitesmoke', fontSize:'1em', fontWeight: '500', borderRadius: '.35em', fontFamily: 'monospace' }}> Search </button>
         </form>
         </div>
     )
